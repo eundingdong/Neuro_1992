@@ -1,0 +1,14 @@
+function areSameLength(string1, string2) {
+ if(string1.length===string2.length){
+   return true;
+ }
+ else{
+   return false;
+ }
+} 
+
+var output1 = areSameLength('they', 'care');
+console.log(output1);
+
+var output2 = areSameLength('we', 'differ');
+console.log(output2);
